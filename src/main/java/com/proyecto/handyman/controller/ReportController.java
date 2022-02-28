@@ -1,6 +1,6 @@
 package com.proyecto.handyman.controller;
 
-import com.proyecto.handyman.configuration.WebApplicationConfiguration;
+
 import com.proyecto.handyman.entity.Report;
 import com.proyecto.handyman.model.ReportModel;
 import com.proyecto.handyman.repository.ReportRepository;
@@ -18,7 +18,8 @@ import java.util.List;
 @CrossOrigin
 @RestController
 @RequestMapping ("/api")
-public class ReportController {
+public class
+ReportController {
     @Autowired
     private ReportRepository reportRepository;
 
